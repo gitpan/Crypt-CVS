@@ -8,7 +8,8 @@ build_requires:
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.101310'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101612, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,13 +18,12 @@ name: Crypt-CVS
 no_index:
   directory:
     - t
-recommends: {}
 requires:
   Exporter: 0
 resources:
-  Ratings: http://cpanratings.perl.org/d/Crypt-CVS
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Crypt-CVS
   homepage: http://search.cpan.org/dist/Crypt-CVS/
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/avar/crypt-cvs
-version: 0.01
+  repository: git://github.com/avar/crypt-cvs.git
+version: 0.02
+x_authority: cpan:AVAR
