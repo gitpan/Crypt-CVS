@@ -9,7 +9,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.101612, CPAN::Meta::Converter version 2.101670'
+generated_by: 'Dist::Zilla version 4.101830, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,5 +25,5 @@ resources:
   homepage: http://search.cpan.org/dist/Crypt-CVS/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/avar/crypt-cvs.git
-version: 0.02
+version: 0.03
 x_authority: cpan:AVAR

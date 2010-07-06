@@ -3,7 +3,7 @@ BEGIN {
   $Crypt::CVS::AUTHORITY = 'cpan:AVAR';
 }
 BEGIN {
-  $Crypt::CVS::VERSION = '0.02';
+  $Crypt::CVS::VERSION = '0.03';
 }
 
 use strict;
@@ -69,7 +69,7 @@ Crypt::CVS - Substitution cipher for CVS passwords
 
 =head1 SYNOPSIS
 
-    use CVS::Password qw(:all);
+    use Crypt::CVS qw(:all);
 
     # AE00uy
     my $scrambled = scramble "foobar";
